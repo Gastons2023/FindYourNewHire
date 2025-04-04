@@ -1,5 +1,5 @@
 ## Description
-A web application designed to streamline the process of searching, filtering, and managing job candidates. The app allows employers or recruiters to easily browse through candidate profiles, filter based on qualifications, skills, and other attributes, and keep track of the recruitment process.
+A web application designed to streamline the process of searching, filtering, and managing job candidates. The app allows employers or recruiters to easily browse through candidate profiles, filter based on qualifications, skills, and other attributes, and keep track of candidates profiles.
 
 
 ## Installation
