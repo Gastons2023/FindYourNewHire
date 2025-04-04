@@ -1,12 +1,12 @@
 const searchGithub = async () => {
   try {
     const start = Math.floor(Math.random() * 100000000) + 1;
-    console.log(import.meta.env);
+    // console.log(import.meta.env);
     const response = await fetch(
       `https://api.github.com/users?since=${start}&per_page=30`,
       {
         headers: {
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
         },
       }
     );
@@ -36,7 +36,7 @@ const searchGithubUser = async (username: string) => {
     }
     return data;
   } catch (err) {
-    console.log('an error occurred', err);
+    // console.log('an error occurred', err);
     return {};
   }
 };
